@@ -6,8 +6,28 @@
 
 }
 
+h1 {
+
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .container-alimento img{
 
     margin: 10px 0;
+
+}
+
+.introducao{
+
+    margin-top: 2em;
+    margin-bottom: 10em;   
+    
+}
+
+nav img {
+
+margin-left: 2em;
 
 }

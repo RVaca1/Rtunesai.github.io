@@ -3,16 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Healthy Foods</title>
+    <link rel="icon" type="image/x-icon" href="imgs/pngtree-broccoli-icon-design-illustration-png-image_5339126.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
 
+        <div class="introducao">
+
+
+            <!-- Navbar on top of page -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand"  href="#">
+                    <img src="imgs/broccoli-icon.jpg" alt="broccoli-icon" srcset="">
+                    Alimentação Saudável</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="navbar-brand mr-0" href="#">
+                        
+                        <img src="imgs/house-door.svg" height="32px" alt="house-icon">
+
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </a>
+        
+                    <a class="navbar-brand" href="#proteinas-id">
+                        <img src="imgs/meat-icon.png" alt="meat-icon" srcset="">
+                        <a class="nav-link active" aria-current="page" href="#proteinas-id">Proteinas</a>
+                    </a>  
+                    <a class="navbar-brand" href="#legumes-id">
+                        <img src="imgs/carrot_small_icon.png" alt="cenoura">
+                        <a class="nav-link active" aria-current="page" href="#legumes-id">Legumes</a>
+                    </a>
+                    <a class="navbar-brand" href="#frutas-id">
+                        <img src="imgs/grape-icon.png" alt="uva">
+                        <a class="nav-link active" aria-current="page" href="#frutas-id">Frutas</a>
+                    </a>
+                    <a class="navbar-brand" href="#cereais-id">
+                        <img src="imgs/oat-icon.png" alt="aveia">
+                        <a class="nav-link active" aria-current="page" href="#cereais-id">Cereais</a>
+                    </a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+
+              <!-- end of navbar -->
+
+
+            <h1 class="title" >Alimentacao Saudavel</h1>
+
+
+            <img src="imgs/piramide-alimentar.jpg" alt="piramide-alimentar">
+            
+
+        </div>
+
         <div class="proteinas-animais container-alimento">
 
-            <h1>Proteinas Animais</h1>
+            <h1 id="proteinas-id" >Proteinas Animais</h1>
             <img src="imgs/carne.jpg" width="630px" alt="carne-foto">
             <p class="fs-3">Carne, peixe, ovos, atum e enlatados de pescado, marisco e moluscos como camarão, caranguejo e mexilhão, leite, queijo e iogurtes</p>
             <a class="btn btn-primary" href="proteinas.html" >Mais detalhes <img src="imgs/arrow-right.svg"></a>
@@ -20,22 +76,22 @@
         </div>
 
         <div class="legumes container-alimento">
-            <h1>Legumes</h1>
-            <img src="imgs/verduras-e-legumes-0.jpg"  alt="verduras e legumes" srcset="">
+            <h1 id="legumes-id" >Legumes e verduras</h1>
+            <img src="imgs/verduras-e-legumes-0.jpg" alt="verduras e legumes" srcset="">
             <p class="fs-3">Abóbora, abobrinha, alcachofra, aspargos, batata-doce, berinjela, beterraba, cenoura, cogumelo, ervilha, fava, inhame, pepino, pimentão, rabanete, tomate e tomate-caqui.
             </p>
             <a class="btn btn-primary" href="legumes.html" >Mais detalhes <img src="imgs/arrow-right.svg"></a>
         </div>
 
         <div class="frutas container-alimento">
-            <h1>Frutas</h1>
-            <img src="imgs/frutas-1.jpg" width="630px" alt="frutas" srcset="">
+            <h1 id="frutas-id" >Frutas</h1>
+            <img src="imgs/frutas-1.jpg" width="630px" alt="frutas">
             <p class="fs-3">Abacate, abacaxi, ameixa fresca, ameixa seca, amora, banana, caju, cereja fresca, coco fresco e/ou seco, damasco seco, figo fresco e/ou seco, goiaba, kiwi, laranja (com o bagaço), maçã com casca, manga, maracujá, mamão, melancia, melão, tangerina, morango, nectarina, pera com casca, pêssego com casca, tâmara, uva fresca e passa.</p>
         </div>
         <a class="btn btn-primary" href="frutas.html" >Mais detalhes <img src="imgs/arrow-right.svg"></a>
 
         <div class="cereais container-alimento">
-            <h1>Cereais</h1>
+            <h1 id="cereais-id" >Cereais</h1>
             <img src="imgs/granola-g58e7febe3_1280.jpg" width="630px" alt="cereais" srcset="">
             <p class="fs-3">Aveia, Milho, Cevada, Arroz, Quinoa, Amaranto</p>
             <a class="btn btn-primary" href="cereais.html" >Mais detalhes <img src="imgs/arrow-right.svg"></a>
