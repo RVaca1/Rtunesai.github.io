@@ -6,17 +6,37 @@
 
 }
 
+
+.container {
+
+    background-color: azure;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+
+}
+
+
+.voltar{
+
+    margin-left: 75%;
+
+}
+
 h1 {
 
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
+    text-decoration: underline;
 }
 
-.container-alimento img{
+.container-alimento {
 
-    margin: 10px 0;
-
+    display: flex;
+    border-top: 1px solid #39d462;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .introducao{
